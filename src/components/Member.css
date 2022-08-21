@@ -1,0 +1,25 @@
+.memberInfoField
+{
+    width: 80%;
+    height: 1000px;
+    background-color: #50756F;
+    color: #4AC2AE;
+    border: 1px solid;
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    font-size: 15px;
+    display: block;
+}
+
+.memberInfoField div
+{
+    justify-content: space-between;
+}
+
+.left
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}

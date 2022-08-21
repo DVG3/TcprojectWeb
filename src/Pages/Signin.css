@@ -1,0 +1,120 @@
+.pagebody
+{
+    height:100vh;
+    width:100%;
+    z-index: 1;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-decoration:wavy;
+    color:  #A8F2CF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1E1E1E;
+}
+.signin-container
+{
+    width: min(50%,400px);
+    height: min(40%,400px);
+    color: black;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 3px solid rgb(0, 255, 200);
+    border-radius: 10px;
+}
+
+.signin-container div
+{
+    font-size: 10px;
+}
+
+.loginfield
+{
+    width: 100%;
+    margin: 0px 0px 10px 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login
+{
+    padding: 10px 0px 0px 0px;
+    margin: 0px;
+    border-bottom: 1px solid blue;
+    width: 80%;
+    height: 20px;
+}
+
+.login input
+{
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.moreLogin
+{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+img
+{
+    height: 30px;
+    width: 30px;
+    padding: 0px 10px 0px 10px;
+    border: 1px 1px 1px 1px solid red;
+
+}
+
+.loginbutton
+{
+    font-size: 15px;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+
+
+.loginbutton:hover
+{
+    background-color: black;
+    color:#A8F2CF;
+    
+}
+
+.loginchoices
+{
+    
+    padding:0px;
+    margin:20px 0px 0px 0px;
+    width:80%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.registerdirect
+{
+    margin:10px 0px 0px 0px;
+    font-size: 15px;
+    color:black;
+}
+
+.registerdirect:hover
+{
+    color:#A8F2CF;
+}

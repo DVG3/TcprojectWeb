@@ -1,0 +1,24 @@
+.input-field
+{
+    padding: 10px 0px 0px 0px;
+    margin: 0px;
+    border-bottom: 2px solid black;
+    width: 80%;
+    height: 20px;
+    transition: all 300ms ease-in;
+}
+
+.input-field input
+{
+    padding: 0px;
+    margin: 0px;
+    font-size: 13px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.input-field:hover
+{
+    border-bottom: 2px solid rgb(0, 157, 255);
+}
